@@ -67,9 +67,6 @@ const MobileNav = ({ value, setValue }) => {
           <p className="text-[12px] text-[#bbb] font-regular flex-1">
             Follow me
           </p>
-          <a href="https://behance.net" target="__blank">
-            <IoLogoBehance />
-          </a>
           <a href="https://instagram.com/" target="__blank">
             <IoLogoInstagram />
           </a>
