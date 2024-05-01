@@ -48,7 +48,7 @@ const Portfolio = () => {
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.7, ease: "backInOut" }}
               className="object-cover object-center w-full h-full saturate-0  opacity-50"
-              src={PortfolioImg1}
+              src="https://i.postimg.cc/xT3TBV2h/Snapinsta-app-435273020-960084545702332-174894897867778492-n-1080.jpg"
               alt=""
             />
           </motion.div>
@@ -66,7 +66,7 @@ const Portfolio = () => {
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.7, ease: "backInOut" }}
               className="object-cover object-center w-full h-full saturate-0  opacity-50"
-              src={PortfolioImg2}
+              src="https://i.postimg.cc/52PP7yk0/Snapinsta-app-426082821-1531622324356692-2753497120559820065-n-1080.jpg"
               alt=""
             />
           </motion.div>
@@ -84,7 +84,7 @@ const Portfolio = () => {
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.7, ease: "backInOut" }}
               className="object-cover object-center w-full h-full saturate-0  opacity-50"
-              src={PortfolioImg3}
+              src="https://i.postimg.cc/P5ZxKvqb/Snapinsta-app-440845453-1927988067721533-7669439177233920341-n-1080.jpg"
               alt=""
             />
           </motion.div>
@@ -102,7 +102,7 @@ const Portfolio = () => {
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.7, ease: "backInOut" }}
               className="object-cover object-center w-full h-full saturate-0  opacity-50"
-              src={PortfolioImg4}
+              src="https://i.postimg.cc/pL40MTKL/Snapinsta-app-434399519-1112619426725563-6546354130859345610-n-1080.jpg"
               alt=""
             />
           </motion.div>

@@ -38,7 +38,7 @@ const Home = () => {
         >
           <img
             className="max-w-full w-full h-screen object-cover object-center saturate-0 opacity-50"
-            src={HomeImg}
+            src="https://i.postimg.cc/RZ5BGPyh/Whats-App-Image-2024-04-28-at-18-40-51-4a68e3d1.jpg"
             alt=""
           />
         </motion.div>

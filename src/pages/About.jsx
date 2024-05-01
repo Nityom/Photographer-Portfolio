@@ -41,7 +41,7 @@ const About = () => {
         >
           <img
             className="max-w-full w-full h-screen object-cover object-center saturate-0 opacity-50"
-            src={AboutImg}
+            src="https://i.postimg.cc/hjJDNFGW/Whats-App-Image-2024-04-28-at-18-40-51-4ef9a719.jpg"
             alt=""
           />
         </motion.div>
