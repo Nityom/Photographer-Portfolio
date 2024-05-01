@@ -64,9 +64,6 @@ const Header = () => {
           </Link>
         </nav>
         <div className="hidden md:flex gap-5">
-          <a href="https://behance.net" target="__blank">
-            <IoLogoBehance className="text-[24px] text-white" />
-          </a>
           <a href="https://instagram.com/" target="__blank">
             <IoLogoInstagram className="text-[24px] text-white" />
           </a>
