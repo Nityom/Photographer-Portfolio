@@ -3,6 +3,7 @@ import HomeImg from "../assets/home.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -43,6 +44,7 @@ const Home = () => {
           />
         </motion.div>
       </div>
+      <Footer/>
     </section>
   );
 };

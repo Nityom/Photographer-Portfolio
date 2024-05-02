@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
+import Footer from "../components/Footer";
 
 const Portfolio = () => {
   return (
@@ -105,6 +106,7 @@ const Portfolio = () => {
           </motion.div>
         </div>
       </div>
+      <Footer/>
     </section>
   );
 };

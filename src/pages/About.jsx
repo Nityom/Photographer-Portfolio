@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
@@ -43,7 +44,9 @@ const About = () => {
           />
         </motion.div>
       </div>
+       <Footer/>
     </section>
+   
   );
 };
 

@@ -3,6 +3,7 @@ import Input from "../components/Input";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
 import emailjs from 'emailjs-com';
+import Footerr from "../components/Footerr";
 
 const Contact = () => {
   const [name, setName] = React.useState("");
@@ -113,7 +114,8 @@ const Contact = () => {
         exit={{ y: "50%" }}
         transition={{ duration: 0.7, ease: "easeInOut" }}
         className="fixed bottom-0 w-full h-3/5 bg-white z-0"
-      ></motion.div>
+      >  <Footerr/></motion.div>
+    
     </section>
   );
 };
