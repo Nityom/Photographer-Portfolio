@@ -30,4 +30,4 @@ It provides a visually appealing and user-friendly interface to display the phot
 ## Usage
 
 To start the development server, run: npm run dev
-This will start the development server and open the application in your default browser at `http://localhost:5731
+This will start the development server and open the application in your default browser at http://localhost:5731
