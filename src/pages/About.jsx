@@ -1,5 +1,4 @@
-import React from "react";
-import AboutImg from "../assets/about.jpg";
+
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
@@ -18,10 +17,8 @@ const About = () => {
           about me
         </h1>
         <p className="font-light text-[16px] md:text-[24px] mb-[36px] text-center md:text-right max-w-[344px] md:max-w-[644px]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
-          suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
-          lacus vel facilisis.
+        I&apos;m Atharva Ghate the owner and lead photographer at Aperture Moments Studios, a photography studio in Pune specializing in commercial and professional photography. We focus on creating impactful images that enhance brands and personal images. Services include product photography, portraits, and event coverage, with a commitment to delivering exceptional results that bring client&apos;s visions to life.
+
         </p>
         <Link
           to={"/portfolio"}

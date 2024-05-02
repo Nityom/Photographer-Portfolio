@@ -2,6 +2,7 @@ import React from "react";
 import Input from "../components/Input";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [name, setName] = React.useState("");
@@ -12,11 +13,33 @@ const Contact = () => {
   function handleSubmit(event) {
     event.preventDefault();
     if (name || email || message) {
-      setSent(true);
-      setName("");
-      setEmail("");
-      setMessage("");
-      setTimeout(() => setSent(false), 3000);
+      // Your EmailJS service ID, template ID, and user ID
+      const serviceId = 'service_laqw4jh';
+      const templateId = 'template_nubbefm';
+      const publicKey = '9GhbOdNipSGsiq9D6';
+
+      // Create a new object that contains dynamic template params
+      const templateParams = {
+        from_name: name,
+        from_email: email,
+        to_name: 'Aperture Studios',
+        message: message,
+      };
+
+      // Send the email using EmailJS
+      emailjs
+        .send(serviceId, templateId, templateParams,publicKey)
+        .then((response) => {
+          console.log('Email sent successfully!', response);
+          setSent(true);
+          setName('');
+          setEmail('');
+          setMessage('');
+          setTimeout(() => setSent(false), 3000);
+        })
+        .catch((error) => {
+          console.error('Error sending email:', error);
+        });
     }
   }
 

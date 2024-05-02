@@ -1,9 +1,6 @@
-import React from "react";
+
 import { Link } from "react-router-dom";
-import PortfolioImg1 from "../assets/portfolio1.jpg";
-import PortfolioImg2 from "../assets/portfolio2.jpg";
-import PortfolioImg3 from "../assets/portfolio3.jpg";
-import PortfolioImg4 from "../assets/portfolio4.jpg";
+
 
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
@@ -66,7 +63,7 @@ const Portfolio = () => {
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.7, ease: "backInOut" }}
               className="object-cover object-center w-full h-full saturate-0  opacity-50"
-              src="https://i.postimg.cc/52PP7yk0/Snapinsta-app-426082821-1531622324356692-2753497120559820065-n-1080.jpg"
+              src="https://i.postimg.cc/J0fjzzhk/Snapinsta-app-400470292-355577800168897-6574184355037822938-n-1080.jpg"
               alt=""
             />
           </motion.div>

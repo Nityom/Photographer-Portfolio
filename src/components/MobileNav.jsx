@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { RiMenu3Fill } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
 import { IoLogoInstagram } from "react-icons/io";
-import { IoLogoBehance } from "react-icons/io5";
+
 
 const MobileNav = ({ value, setValue }) => {
   const menu = React.useRef();
@@ -67,7 +67,7 @@ const MobileNav = ({ value, setValue }) => {
           <p className="text-[12px] text-[#bbb] font-regular flex-1">
             Follow me
           </p>
-          <a href="https://instagram.com/" target="__blank">
+          <a href="https://www.instagram.com/aperture_moments_studio/" target="__blank">
             <IoLogoInstagram />
           </a>
         </div>
