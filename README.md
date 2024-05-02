@@ -3,7 +3,7 @@
 This is a React-based web application that showcases the portfolio of a professional photographer.
 It provides a visually appealing and user-friendly interface to display the photographer's work, along with relevant information about their services and background.
 
-# Live Preview: https://aperture-moments-studio.netlify.app/
+## Live Preview: https://aperture-moments-studio.netlify.app/
 
 ## Features
 
