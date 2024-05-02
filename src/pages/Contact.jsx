@@ -13,7 +13,7 @@ const Contact = () => {
 
   function handleSubmit(event) {
     event.preventDefault();
-    if (name || email || message) {
+    if (name && email && message) {
       // Your EmailJS service ID, template ID, and user ID
       const serviceId = 'service_laqw4jh';
       const templateId = 'template_nubbefm';
@@ -71,6 +71,7 @@ const Contact = () => {
             name="name"
             value={name}
             setValue={setName}
+            required
           />
           <Input
             type="email"
@@ -79,6 +80,7 @@ const Contact = () => {
             name="email"
             value={email}
             setValue={setEmail}
+            required
           />
           <Input
             type="text"
@@ -87,10 +89,12 @@ const Contact = () => {
             name="message"
             value={message}
             setValue={setMessage}
+            required
           />
           <button
             className="text-[16px] font-light uppercase border-[1px] border-[#111] py-2 px-[36px] hover:text-white
       duration-300 relative before:absolute before:top-0 before:left-0 before:bg-[#111] before:w-0 before:h-full before:-z-10 hover:before:w-full before:duration-300 shrink-1"
+            disabled={!name || !email || !message}
           >
             Send a message
           </button>
